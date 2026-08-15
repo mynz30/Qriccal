@@ -1,0 +1,14 @@
+# === File sensitif — JANGAN pernah ter-push ke GitHub ===
+config/mailer_config.php
+config/database.php
+
+# === Dependency (di-install ulang via composer, tidak perlu di-track) ===
+vendor/
+composer.lock
+
+# === File hasil generate otomatis, bukan source code ===
+assets/qrcodes/*.png
+qr_error_log.txt
+
+# === File sistem Mac ===
+.DS_Store
